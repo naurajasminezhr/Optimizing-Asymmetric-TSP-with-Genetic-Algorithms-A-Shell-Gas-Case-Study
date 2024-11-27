@@ -53,7 +53,7 @@ The algorithms were applied to cluster the gas stations effectively and determin
 
 ### Clustering Results
 - The DBSCAN algorithm identified four distinct clusters with a Silhouette score of 0.4382.
-- The best parameters for DBSCAN were found to be $$ \text{eps} = 4.50 $$ and $$ \text{min\_samples} = 2 $$.
+- The best parameters for DBSCAN  were found to be  eps = 4.50 eps=4.50 and min samples = 2 min samples=2
 
 ### Optimization Results
 The GA was utilized to determine optimal routes based on the clustered data, minimizing total travel distance while ensuring all stations were visited efficiently.
